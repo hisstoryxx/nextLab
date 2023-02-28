@@ -34,7 +34,7 @@ export default function Home() {
           mddu | 의료기기 설계 및 사용적합성 연구실
         </title>
         <link rel="shortcut icon" href="/favicon.ico"/>
-        <meta name='viewport' content='initial-scale=1.0, width=device-width' />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
 
