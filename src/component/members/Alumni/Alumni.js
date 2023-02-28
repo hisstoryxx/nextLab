@@ -107,7 +107,7 @@ export default function Alumni() {
         photo = {"sangeun.png"} 
         name = {"Sangeun Park"} 
         edu1 = {"Master & Ph.D in Medical Device Engineering & Management (2023)"} 
-        dissertation = {""} 
+        dissertation = {"Application of medical device regulatory science to life cycle for a wearable bladder monitoring system"} 
         affilation = {"EDGECARE"} 
         con = {"pse7036@naver.com"}   />
 
