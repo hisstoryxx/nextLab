@@ -81,12 +81,13 @@ export default function Student({select ,setSelect, selectStudent, setSelectStud
   </div>
 </div>
 <StudentLayout 
-course = {'Ph.D course'}
+course = {'PostDoc - course'}
 photo = {"images/yourim.png"}
 name = {'Yourim Kim'}
 EName = {null} 
 edu1 = {'Master in Medical Device Engineering & Management (2020)'} 
 edu2 = {'Bachelor in Biomedical Engineering, Konkuk University (2017)'} 
+edu3 = {'Doctor in Medical Device Engineering & Management (2023)'}
 int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation, \nMedical Device Industry Policy, Medical Regulatory Affairs'}
 con = {'yxxrm_k@naver.com / yxxrmk@yonsei.ac.kr'}
 />
@@ -209,6 +210,19 @@ int = {'Usability/Human Factors Engineering '}
 con = {'cowjy0427@yonsei.ac.kr'}
 />
 
+<StudentLayout 
+lphoto={BarImgStu}
+course = {'MS course'}
+photo = {"images/jiyoon.jpeg"}
+name = {'Jiyoon Oh'}
+EName = {null} 
+edu1 = {`Bachelor in Biomedical Engineering, Yonsei University (2023)`} 
+edu2 = {null} 
+int = {' Medical Device Clinical Study Design, Medical Regulatory Affairs'}
+con = {'5wldbs27@naver.com'}
+
+/>
+
 
 <div className={styles.stu_profile}>
 
@@ -217,7 +231,36 @@ con = {'cowjy0427@yonsei.ac.kr'}
 </>
 
       :
-      
+
+
+      select === 'Student' && selectStudent ==='Post.D course'?
+        <>
+          <div className={styles.stu_header} >
+             <div className={styles.stu_title}>
+               Students {to} Ph.D course
+            </div>
+          </div>
+          <StudentLayout 
+            course = {'PostDoc - course'}
+            photo = {"images/yourim.png"}
+            name = {'Yourim Kim'}
+            EName = {null} 
+            edu1 = {'Master in Medical Device Engineering & Management (2020)'} 
+            edu2 = {'Bachelor in Biomedical Engineering, Konkuk University (2017)'} 
+            edu3 = {'Doctor in Medical Device Engineering & Management (2023)'}
+            int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation, \nMedical Device Industry Policy, Medical Regulatory Affairs'}
+            con = {'yxxrm_k@naver.com / yxxrmk@yonsei.ac.kr'}
+            />
+
+
+        
+         <div className={styles.stu_profile}>
+     
+        </div>
+          
+         
+        </>
+      :
       select === 'Student' && selectStudent ==='Ph.D course'?
         <>
           <div className={styles.stu_header} >
@@ -227,7 +270,7 @@ con = {'cowjy0427@yonsei.ac.kr'}
           </div>
        
 
-         <StudentLayout 
+         {/* <StudentLayout 
               
               course = {'Ph.D course'}
               photo = {"images/yourim.png"}
@@ -238,7 +281,7 @@ con = {'cowjy0427@yonsei.ac.kr'}
               int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation, \nMedical Device Industry Policy, Medical Regulatory Affairs'}
               con = {'yxxrm_k@naver.com / yxxrmk@yonsei.ac.kr'}
               rphoto={BarImgStu}/>
-              
+               */}
          <div className={styles.stu_profile}>
      
         </div>

@@ -16,6 +16,10 @@ export default function MemberSide({ select, setSelect, selectStudent, setSelect
     setSelectStudent('')
   
   }
+  const clickpD = () => {
+    setSelectStudent('Post.D course')
+  
+  }
   const clickphd = () => {
     setSelectStudent('Ph.D course')
   
@@ -68,6 +72,8 @@ export default function MemberSide({ select, setSelect, selectStudent, setSelect
           <li className={styles.memberListItem} onClick={clickStu} style={{marginBottom: select === 'Student'  ? 20 : 33, color: select === 'Student' ? 'black' : 'grey'}} >Students</li>
             {select === 'Student' ? 
             <>
+
+            <li className={styles.memberSmallItem} onClick={clickpD} style={{ color: selectStudent === 'Post.D course' ? 'black' : 'grey'}} > Post.D course</li>
             <li className={styles.memberSmallItem} onClick={clickphd} style={{ color: selectStudent === 'Ph.D course' ? 'black' : 'grey'}} > Ph.D course</li>
             <li className={styles.memberSmallItem} onClick={clickmsph} style={{ color: selectStudent === 'MS/Ph.D course' ? 'black' : 'grey'}} > MS/Ph.D course</li>
             <li className={styles.memberSmallItem} onClick={clickms} style={{ color: selectStudent === 'MS course' ? 'black' : 'grey'}} > MS course</li>

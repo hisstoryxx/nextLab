@@ -3,7 +3,7 @@ import React, {useRef} from 'react';
 
 import styles from "./StudentLayout.module.css"
 
-export default function StudentLayout({course,lphoto,photo, name, EName, edu1, edu2, int, con, rphoto}) {
+export default function StudentLayout({course,lphoto,photo, name, EName, edu1, edu2, edu3, int, con, rphoto}) {
 
   return (   
     <div className={styles.stu_profile}>
@@ -29,6 +29,7 @@ export default function StudentLayout({course,lphoto,photo, name, EName, edu1, e
             <div className={styles.stu_subContainer}>
             <span className={styles.stu_edu}></span>
             <span className={styles.stu_edu}>| Education |</span>
+            {edu3 && <span className={styles.stu_edul1}>{edu3}</span> }
             <span className={styles.stu_edul1}>{edu1}</span>
             {edu2 && <span className={styles.stu_edul2}>{edu2}</span>}
             <span className={styles.stu_ri}>| Research Interest |</span>
