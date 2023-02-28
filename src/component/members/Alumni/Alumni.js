@@ -136,21 +136,14 @@ export default function Alumni() {
         dissertation = {"The optimization of Design for Breast Ultrasound Diagnosis System Based on Usability Engineering "} 
         affilation = {""} 
         con = {"ravissante25@gmail.com"}   />
-        <AluminiLayout 
-        course = {"MS"} 
-        photo = {"heeyoung.png"} 
-        name = {"Heeyeong Choi"} 
-        edu1 = {"Master in Medical Device Engineering & Management (2023)"} 
-        dissertation = {""} 
-        affilation = {"Siemens Healthineers"} 
-        con = {"chy980423@naver.com"}   />
-
-
-
-
-
-
-
+    <AluminiLayout 
+    course = {"MS"} 
+    photo = {"heeyoung.png"} 
+    name = {"Heeyeong Choi"} 
+    edu1 = {"Master in Medical Device Engineering & Management (2023)"} 
+    dissertation = {"Development of Clinical Protocol to Evaluate Safety and Efficacy of Gastrointestinal Endoscopy Images Analysis Artificial Intelligence Software"} 
+    affilation = {"Siemens Healthineers"} 
+    con = {"chy980423@naver.com"}   />
 
 
   </div>
