@@ -120,15 +120,7 @@ export default function Professor() {
         </div>
 
        
-        
-  
-        <div className={styles.main_career} ref={mRef}>
-            <div className={styles.mc_container}>
-           
-              <div className={styles.mc}>
-              | 주요 경력 |
-              </div>
-              <style jsx>{`
+        <style jsx>{`
             
             ul {
               list-style-type: square;
@@ -144,6 +136,14 @@ export default function Professor() {
                             `}
 
             </style>
+  
+        <div className={styles.main_career} ref={mRef}>
+            <div className={styles.mc_container}>
+           
+              <div className={styles.mc}>
+              | 주요 경력 |
+              </div>
+             
               <ul >
                 <li className ={styles.textList} >2020. 3 ~ 현재 : 연세대학교 의과대학 대학원 융합의학과(디지털헬스케어전공) 교수</li>
                 <li className ={styles.textList}>2018. 3 ~ 현재 : 연세대학교 의과대학 대학원 의료기기산업학과 교수</li>
@@ -175,8 +175,36 @@ export default function Professor() {
           <div className={styles.oc}>
             | 기타 사항 |
           </div>
-         
-          <span className={styles.ocl} >2021.9 ~ 현재 : 강남세브란스병원 의료기기사용적합성 연구센터 소장</span>
+          <ul >
+                <li className ={styles.textList} >2021.9 ~ 현재 : 강남세브란스병원 의료기기사용적합성 연구센터 소장</li>
+                <li className ={styles.textList}>2021.7 ~ 현재 : 소비자정책위원회, 국무총리실, 전문위원(식의약품분야)</li>
+                <li className ={styles.textList}>2021.7 ~ 현재 : 의료기기위원회, 식품의약품안전처, 전문위원</li>
+                <li className ={styles.textList}>2021.5 ~ 현재 : 보건산업 기술가치 평가 심의위원, 한국보건산업진흥원</li>
+                <li className ={styles.textList}>2021.1 ~ 현재 : 대한에프디씨규제과학회 학술위원</li>
+                <li className ={styles.textList}>2020.11 ~ 현재 : R&D 샌드박스 운영위원회, 산업통상자원부</li>
+                <li className ={styles.textList}>2020.4 ~ 현재 : 의료기기 기술문서심사기관 심의위원회, 식품의약품안전처</li>
+                <li className ={styles.textList}>2017. 7 ~ 2017.10 : 산업계관점대학평가(의료기기분야) 요구분석, 대학교육협의회, 전문위원</li>
+                <li>2016. 6 ~ 2017. 5 : 의료기기광고사전심의위원회, 전문위원</li>
+                <li>2016. 3 ~ 현재 : 의료기기 이상사례 심위위원회, 위원</li>
+                <li>2015. 10 ~ 2015. 12 : 산업핵심기술개발사업, 산업통상자원부, 기획위원</li>
+                <li>2013. 5 ~ 현재 : 의료기기위원회, 식품의약품안전처, 전문위원</li>
+                <li>2013. 6 ~ 2013. 6 : 산업계관점대학평가(의료기기분야) 요구분석, 대학교육협의회, 전문위원</li>
+                <li>2011. 7 ~ 2011. 12 : 범부처의료기기연구개발사업 공동기획위원,지식경제부/보건복지부, 기획위원</li>
+                <li>2011. 6 ~ 2011. 12 : 산업원천기술개발사업(의료기기) R&D R&D전략위원회, 기획위원</li>
+                <li>2010. 10 ~ 2011. 4 : 대경 광역권선도산업육성 프로젝트, Advisor</li>
+                <li>2009. 9 ~ 현재 : 의료기기미래포럼-제도분과개선 전문위원회. 식품의약품안전처, 전문위원</li>
+                <li>2009. 8 ~ 2012. 1 : 산업원천기술개발사업(의료기기) 기획지원팀, 지식경제부, 기획위원</li>
+                <li>2008. 4 ~ 2009. 1 : 신성장동력기획단 바이오.의료소위원회, 지식경제부, 전문위원</li>
+                <li>2008. 8 ~ 2011.12 : 산업원천기술로드맵(의료기기) 기획위원회, 지식경제부, 기획위원</li>
+                <li>2008. 2 ~ 2009.12 : 산업술로드맵(차세대의료기기) 기획위원회, 지식경제부, 기획위원</li>
+                <li>2006. 5 ~ 현재 : 지식경제 기술혁신평가단(의료기기), 지식경제부, 평가위원</li>
+                <li>2005. 4 ~ 2009. 2 : 산업원천기술개발사업 기획위원회, 지식경제부, 기획위원</li>
+                <li>2003 : 의료기기법 연구회, 식품의약품안전처, 위원</li>
+
+
+                
+              </ul>
+          {/* <span className={styles.ocl} >2021.9 ~ 현재 : 강남세브란스병원 의료기기사용적합성 연구센터 소장</span>
           
           <span className={styles.ocl}>2021.7 ~ 현재 : 소비자정책위원회, 국무총리실, 전문위원(식의약품분야)</span>
           
@@ -210,7 +238,7 @@ export default function Professor() {
           <span className={styles.ocl}>2008. 2 ~ 2009.12 : 산업술로드맵(차세대의료기기) 기획위원회, 지식경제부, 기획위원</span>
           <span className={styles.ocl}>2006. 5 ~ 현재 : 지식경제 기술혁신평가단(의료기기), 지식경제부, 평가위원</span>
           <span className={styles.ocl}>2005. 4 ~ 2009. 2 : 산업원천기술개발사업 기획위원회, 지식경제부, 기획위원</span>
-          <span className={styles.ocl}>2003 : 의료기기법 연구회, 식품의약품안전처, 위원</span>
+          <span className={styles.ocl}>2003 : 의료기기법 연구회, 식품의약품안전처, 위원</span> */}
        
         </div>
           

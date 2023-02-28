@@ -101,6 +101,14 @@ export default function Alumni() {
         dissertation = {"Development of cloud_based remote monitoring system for peritoneal dialysis patients"} 
         affilation = {"MDOC"} 
         con = {"hisstoryxx@gmail.com"}   />
+    <AluminiLayout 
+        course = {"Ph.D course"} 
+        photo = {"yourim.png"} 
+        name = {"Yourim Kim"} 
+        edu1 = {"Ph.D in Medical Device Engineering & Management (2023)"} 
+        dissertation = {"Optimization of Medical Device Clinical Evaluation Design Based on Analysis of Clinical Effectiveness and Usability"} 
+        affilation = {"Post.D"} 
+        con = {"yxxrm_k@naver.com / yxxrmk@yonsei.ac.kr"}   />
 
 <AluminiLayout 
         course = {"MS / Ph.D course"} 
@@ -125,7 +133,7 @@ export default function Alumni() {
         photo = {"jiyun.jpg"} 
         name = {"Jiyun Jeong"} 
         edu1 = {"Master in Medical Device Engineering & Management (2023)"} 
-        dissertation = {"The optimization of Design for Breast Ultrasound Diagnosis System Based on Usability Engineering"} 
+        dissertation = {"The optimization of Design for Breast Ultrasound Diagnosis System Based on Usability Engineering "} 
         affilation = {""} 
         con = {"ravissante25@gmail.com"}   />
         <AluminiLayout 
