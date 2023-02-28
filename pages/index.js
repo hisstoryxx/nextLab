@@ -62,7 +62,7 @@ export default function Home() {
                 <div className = {styles.back} style = {{backgroundPositionY : position /1.2, opacity : 0.9 +  position/3}}>
 
                 </div>
-                {/* <img style={{display: 'flex', width: '100%', height: '100%', objectFit: &qoutcontain&qout}} src=&qoutimages/main_design_img.png&qout alt=&qout/> */}
+                {/* <img style={{display: 'flex', width: '100%', height: '100%', objectFit: &quotcontain&quot}} src=&quotimages/main_design_img.png&quot alt=&quot/> */}
                 
                 
             </div>
@@ -119,25 +119,25 @@ export default function Home() {
               We do 
             </p>
             <p className = {styles.textContainer2} style = {{opacity: (position-140)/100}}>
-            &qout;Design &amp; Development&qout;
+            &quot;Design &amp; Development&quot;
             </p>
             <p className = {styles.textContainer3} style = {{opacity: (position-180)/100}}>
             and...
             </p>
             <p className = {styles.textContainer4} style = {{opacity: (position-220)/50}}>
-            &qout;Research &amp; Evaluation&qout;
+            &quot;Research &amp; Evaluation&quot;
             </p>
             <p className = {styles.textContainer5} style = {{opacity: (position-260)/50}}>
             focusing on
             </p>
             <p className = {styles.textContainer6} style = {{opacity: (position-300)/50}}>
-            &qout;Practical Healthcare Industry&qout;
+            &quot;Practical Healthcare Industry&quot;
             </p>
             <p className = {styles.textContainer7} style = {{opacity: (position-340)/100}}>
             within
             </p>
             <p className = {styles.textContainer8} style = {{opacity: (position-380)/100}}>
-            &qout;Medical Device Regulation&qout;
+            &quot;Medical Device Regulation&quot;
             </p>
             </div>
 
