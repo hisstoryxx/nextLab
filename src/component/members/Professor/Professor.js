@@ -1,5 +1,6 @@
 import { Stint_Ultra_Condensed } from '@next/font/google';
 import React, {useRef,useState} from 'react';
+import Pubitem from '../../Pubitem';
 import styles from "./Professor.module.css"
 export default function Professor() {
     const intJournal="< 국외 논문 >"
@@ -49,12 +50,17 @@ export default function Professor() {
       setSelect('연구 과제')
     };
     return (   
+
+      
       <div className={styles.professor} >
+         
         <div className={styles.prof_header} >
           <div className={styles.header_title}>
             Professor
         
           </div>
+
+          
     
           <div className={styles.prof_scrollMenu}>
              <ul className={styles.profList}>
@@ -99,7 +105,7 @@ export default function Professor() {
                <span className={styles.telCont}> 02-2019-5442</span>
               </div>
               <div className={styles.research_interest}>
-                <span className={styles.ri}>| Research Interest |</span>
+                <span className={styles.ri}>| Research&nbsp; Interest |</span>
                 <span className={styles.ril}>Medical Device Usability Engineering</span>
                 <span className={styles.ril}>Medical Device UX/UI Design and Evaluation</span>
                 <span className={styles.ril}>Medical Image Diagnostic System</span>
@@ -112,6 +118,8 @@ export default function Professor() {
   
          </div>
         </div>
+
+       
         
   
         <div className={styles.main_career} ref={mRef}>
@@ -120,15 +128,42 @@ export default function Professor() {
               <div className={styles.mc}>
               | 주요 경력 |
               </div>
+              <style jsx>{`
+            
+            ul {
+              list-style-type: square;
+              list-style-position: inside;
+            }
+
+            li::marker {
+              color: #0086c4;
               
-              <span className={styles.mcl}>2020. 3 ~ 현재 : 연세대학교 의과대학 대학원 융합의학과(디지털헬스케어전공) 교수</span>
+            }
+               
+           
+                            `}
+
+            </style>
+              <ul >
+                <li className ={styles.textList} >2020. 3 ~ 현재 : 연세대학교 의과대학 대학원 융합의학과(디지털헬스케어전공) 교수</li>
+                <li className ={styles.textList}>2018. 3 ~ 현재 : 연세대학교 의과대학 대학원 의료기기산업학과 교수</li>
+                <li className ={styles.textList}>2014. 9 ~ 2018. 2 : 연세대학교 의과대학 의학공학교실 연구조교수</li>
+                <li className ={styles.textList}>2012. 12 ~ 2014. 8 : 연세대학교 보건과학대학 방사선학과 조교수</li>
+                <li className ={styles.textList}>2012. 7 ~ 2012. 11 : 삼성메디슨㈜ 수석연구원</li>
+                <li className ={styles.textList}>2004. 8 ~ 2011. 4 : 지멘스㈜ SIEMENS Medical R&D Center, 수석연구원</li>
+                <li className ={styles.textList}>2002. 5 ~ 2004. 7 : 한국보건산업진흥원 의료기기팀, 연구원</li>
+                <li className ={styles.textList}>1997. 7 ~ 2002. 5 : ㈜바이오시스 연구소 S/W팀 , 전임연구원</li>
+                
+                </ul>
+              {/* <span className={styles.mcl}>2020. 3 ~ 현재 : 연세대학교 의과대학 대학원 융합의학과(디지털헬스케어전공) 교수</span>
               <span className={styles.mcl}>2018. 3 ~ 현재 : 연세대학교 의과대학 대학원 의료기기산업학과 교수</span>
               <span className={styles.mcl}>2014. 9 ~ 2018. 2 : 연세대학교 의과대학 의학공학교실 연구조교수</span>
               <span className={styles.mcl}>2012. 12 ~ 2014. 8 : 연세대학교 보건과학대학 방사선학과 조교수</span>
               <span className={styles.mcl}>2012. 7 ~ 2012. 11 : 삼성메디슨㈜ 수석연구원</span>
               <span className={styles.mcl}>2004. 8 ~ 2011. 4 : 지멘스㈜ SIEMENS Medical R&D Center, 수석연구원</span>
               <span className={styles.mcl}>2002. 5 ~ 2004. 7 : 한국보건산업진흥원 의료기기팀, 연구원</span>
-              <span className={styles.mcl}>1997. 7 ~ 2002. 5 : ㈜바이오시스 연구소 S/W팀 , 전임연구원</span>
+              <span className={styles.mcl}>1997. 7 ~ 2002. 5 : ㈜바이오시스 연구소 S/W팀 , 전임연구원</span> */}
+              
             </div>
               {/* <img className="bar-right" src="" alt="" /> */}
        

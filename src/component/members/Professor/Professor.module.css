@@ -290,6 +290,13 @@
     
 }
 
+.textList{
+    font-size: 1rem;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
+}
+
+
+
 
 .other_career{
     display: flex;
@@ -428,6 +435,7 @@
     margin-bottom: 29px;
     font-weight: 700;
 }
+
 
 
 .reward_career{
@@ -620,6 +628,10 @@
    
 }
 
+.textList{
+    font-size: 0.8rem;
+   
+}
 
 .mcl{
    
@@ -818,6 +830,10 @@
     font-size: 0.5rem;
 
     
+}
+.textList{
+    font-size: 0.5rem;
+   
 }
 
 .oc{

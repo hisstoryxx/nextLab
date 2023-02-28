@@ -5,9 +5,9 @@ const Pubitem = ({content}) => {
     
     return (
 
-        <li style = {{padding: 10 }}>
+        <ul className={styles.style}>
             <a className={styles.conl}>{content} </a>
-            </li>
+            </ul>
     )
 }
 
