@@ -33,7 +33,7 @@ export default function Home() {
         <title>
           mddu | 의료기기 설계 및 사용적합성 연구실
         </title>
-        <link rel='shortcut icon' href='/favicon.ico' />
+        <link rel="shortcut icon" href="/favicon.ico"/>
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       </Head>
 
@@ -124,19 +124,19 @@ export default function Home() {
             <p className = {styles.textContainer3} style = {{opacity: (position-180)/100}}>
             and...
             </p>
-            <p className = {styles.textContainer4} style = {{opacity: (position-220)/50}}>
+            <p className = {styles.textContainer4} style = {{opacity: (position-250)/50}}>
             &quot;Research &amp; Evaluation&quot;
             </p>
-            <p className = {styles.textContainer5} style = {{opacity: (position-260)/50}}>
+            <p className = {styles.textContainer5} style = {{opacity: (position-300)/50}}>
             focusing on
             </p>
-            <p className = {styles.textContainer6} style = {{opacity: (position-300)/50}}>
+            <p className = {styles.textContainer6} style = {{opacity: (position-340)/50}}>
             &quot;Practical Healthcare Industry&quot;
             </p>
-            <p className = {styles.textContainer7} style = {{opacity: (position-340)/100}}>
+            <p className = {styles.textContainer7} style = {{opacity: (position-380)/100}}>
             within
             </p>
-            <p className = {styles.textContainer8} style = {{opacity: (position-380)/100}}>
+            <p className = {styles.textContainer8} style = {{opacity: (position-420)/100}}>
             &quot;Medical Device Regulation&quot;
             </p>
             </div>
