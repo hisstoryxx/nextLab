@@ -116,7 +116,7 @@ export default function Alumni() {
         photo = {"seulbi.png"} 
         name = {"Seulbi Lee"} 
         edu1 = {"Master in Medical Device Engineering & Management (2023)"} 
-        dissertation = {""} 
+        dissertation = {"A Study on the Development of the Clinical Trial Protocol of Wireless Echocardiographic Imaging Device"} 
         affilation = {""} 
         con = {"bee5747@naver.com"}   />
 
@@ -125,7 +125,7 @@ export default function Alumni() {
         photo = {"jiyun.jpg"} 
         name = {"Jiyun Jeong"} 
         edu1 = {"Master in Medical Device Engineering & Management (2023)"} 
-        dissertation = {""} 
+        dissertation = {"The optimization of Design for Breast Ultrasound Diagnosis System Based on Usability Engineering"} 
         affilation = {""} 
         con = {"ravissante25@gmail.com"}   />
         <AluminiLayout 

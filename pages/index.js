@@ -82,8 +82,13 @@ export default function Home() {
            <img style={{ display: 'flex', opacity: (position - 20)/50 + 0.9, width: '100%', height: '100%', objectFit:'contain', zIndex: -1}} src='images/upGo.jpeg' alt=''/>
                 
                 
-                <div style ={{ position : 'relative',
-  padding : '0 2rem'}}>
+                <div style ={{ 
+                  
+                  position : 'relative',
+                  padding : '0 2rem',
+                 
+                 
+  }}>
                 <div className = {styles.listContainer}>
                 <ul className = {styles.links}>
                     <li className = {styles.li} style ={{backgroundColor:'#00489a' ,opacity: (position - 30)/50 + 0.95,  }} >
