@@ -16,7 +16,7 @@ export default function Gallery() {
     <div>
       <Head>
         <title>
-          Gallery | mddu
+          Gallery | MDDU
         </title>
       </Head>
 

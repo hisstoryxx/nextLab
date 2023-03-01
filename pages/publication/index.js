@@ -40,7 +40,7 @@ export default function Publication() {
     <div>
       <Head>
         <title>
-          Publication | mddu
+          Publication | MDDU
         </title>
       </Head>
 

@@ -75,7 +75,7 @@ export default function Research() {
     <div>
       <Head>
         <title>
-          Research | mddu
+          Research | MDDU
         </title>
       </Head>
 

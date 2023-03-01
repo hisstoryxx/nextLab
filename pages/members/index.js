@@ -43,7 +43,7 @@ export default function Members() {
     <div>
       <Head>
         <title>
-          members | mddu
+          Members | MDDU
         </title>
       </Head>
 

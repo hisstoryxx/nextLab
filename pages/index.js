@@ -31,7 +31,7 @@ export default function Home() {
     <div style ={{position : 'relative', padding : '0 2rem',}}>
       <Head>
         <title>
-          mddu | 의료기기 설계 및 사용적합성 연구실
+           MDDU | Medical Device Design & Usability Lab
         </title>
         <link rel="shortcut icon" href="/favicon.ico"/>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -65,7 +65,7 @@ export default function Home() {
                 {/* <img style={{display: 'flex', width: '100%', height: '100%', objectFit: &quotcontain&quot}} src=&quotimages/main_design_img.png&quot alt=&quot/> */}
                 
                 
-            </div>
+            {/* </div> */}
 
             <div style = {{display: 'flex', width: '100%', height: '100%',  justifyContent:'center'}}>
               <div style ={{display: 'flex', flexDirection:'column', width: '80%', height: '80%', }}>
@@ -154,7 +154,7 @@ export default function Home() {
           
           
         </div>
-        
+        </div>
     </div>
 
 

@@ -171,11 +171,12 @@
 
 .back{
   display: flex;
-  background: url(../public/images/main_design_img.webp);
-  background-size:contain;
+  /* background: url(../public/images/main_design_img.webp); */
+  background: url(../public/images/bspweb.webp);
+  background-size:cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 300px;
+  height: 500px;
   
 }
 
@@ -209,7 +210,7 @@
   }
 
   .back {
-    height: 250px;
+    height: 300px;
   }
 
   
@@ -271,7 +272,9 @@
     height: 50px;
   }
   .container{
-    margin : 20px;
+   
+    margin : 50px;
+    margin-top: 80px;
     z-index: 0;
   }
   .headerTitleSmall{
@@ -321,8 +324,52 @@
   }
 
   .back {
-    height: 200px;
+    height: 250px;
   }
+
+
+.textContainer1{
+  padding: 10px;
+  font-size: 1rem;
+  
+}
+.textContainer2{
+  padding: 10px;
+  font-size: 0.8rem;
+  
+}
+.textContainer3{
+  padding: 10px;
+  font-size: 0.9rem;
+ 
+}
+.textContainer4{
+  padding: 10px;
+  font-size: 1.3rem;
+
+}
+.textContainer5{
+  padding: 10px;
+  font-size: 1rem;
+
+}
+.textContainer6{
+  padding: 10px;
+  font-size: 1.3rem;
+  color : #003979;
+ 
+}
+.textContainer7{
+  padding: 10px;
+  font-size: 1.2rem;
+
+}
+.textContainer8{
+  padding: 10px;
+  font-size: 1.5rem;
+  color : #0086c4;
+  
+}
   
   
 }

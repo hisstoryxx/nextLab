@@ -25,7 +25,7 @@ export default function Contact() {
     <div>
       <Head>
         <title>
-          Contact | mddu
+          Contact | MDDU
         </title>
       </Head>
 
