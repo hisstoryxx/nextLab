@@ -55,11 +55,11 @@ export default function Home() {
 
               
               <div className={styles.container}>
-                    <span className={styles.headerTitleSmall}>MDDU 의료기기 설계 및 사용적합성 연구실</span>
-                    <span className={styles.headerTitleSmaller}>Medical Device Design & Usability Lab</span>
+                    <span className={styles.headerTitleSmall} style = {{ color: position > 0  ? "#fff" : null,}} >MDDU 의료기기 설계 및 사용적합성 연구실</span>
+                    <span className={styles.headerTitleSmaller} style = {{ color: position > 0  ? "#fff" : null,}}>Medical Device Design & Usability Lab</span>
 
                 </div>
-                <div className = {styles.back} style = {{backgroundPositionY : position /1.2, opacity : 0.9 +  position/3}}>
+                <div className = {styles.back} style = {{backgroundPositionY : position /1.2, opacity : 0.4 +  position/3}}>
 
                 </div>
                 {/* <img style={{display: 'flex', width: '100%', height: '100%', objectFit: &quotcontain&quot}} src=&quotimages/main_design_img.png&quot alt=&quot/> */}
