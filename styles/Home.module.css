@@ -25,18 +25,21 @@
   margin : 120px;
   z-index: 50;
   
+ 
+  
 
 }
 
 .headerTitleSmall{
-  color: #fff;
+  color: #003979;
   font-size:  2rem;
-  font-weight: 700;
-  font-family:  'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  
+  font-weight: bolder;
+  font-family:  'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif; 
+  
 }
 
 .headerTitleSmaller{
-  color: #fff;
+  color: #003979;
   font-size: 1.5rem;
   font-family:  'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif ;
   
@@ -50,7 +53,7 @@
 }
 
 .visionText{
-  color: #010e1e;
+  color: #003979;
   font-size: 4rem;
 }
 
@@ -66,6 +69,7 @@
   height: 60px;
   display: flex;
   justify-content:space-around;
+  text-decoration: none;
   z-index: 100;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -78,6 +82,7 @@
 .listContainer .links{
   display: flex;
   gap: 1rem;
+  text-decoration: none;
 
 }
 
@@ -138,6 +143,7 @@
 .li {
   display: flex;
   flex-direction: column;
+  text-decoration: none;
   list-style: none;
   width: 200px;
   height: 150px;
@@ -154,6 +160,7 @@
 .li:hover{
   scale: 1.05;
   color: #fff;
+  text-decoration: none;
 }
 
 .contents {
@@ -177,6 +184,7 @@
   background-repeat: no-repeat;
   width: 100%;
   height: 500px;
+  opacity: 0.5;
   
 }
 
@@ -185,7 +193,8 @@
 
 @media(max-width: 992px) {
   .container{
-    margin : 50px;
+    margin : 70px;
+    margin-top: 80px;
   }
   .headerTitleSmall{
     font-size: 1.5rem;
@@ -259,7 +268,7 @@
 }
 
 .li {
-  width: 130px;
+  width: 100px;
   height: 80px;
 }
   
@@ -278,10 +287,10 @@
     z-index: 0;
   }
   .headerTitleSmall{
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
   .headerTitleSmaller{
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
   .visionText{
     font-size: 1rem;
@@ -311,6 +320,7 @@
   .listContainer .links{
     display: flex;
     gap: 0.5rem;
+    text-decoration: none;
     
     
   }
@@ -318,13 +328,14 @@
   .li {
     display: flex; 
     padding: 10px;
+    text-decoration: none;
  
   
     
   }
 
   .back {
-    height: 250px;
+    height: 200px;
   }
 
 
