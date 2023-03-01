@@ -167,6 +167,7 @@
 
 .contents {
   text-decoration: none;
+  display: flex;
   color : #fff;
   font-size: 1.5rem;
   text-align: center;
@@ -271,7 +272,7 @@
 }
 
 .li {
-  width: 100px;
+  width: 100%;
   height: 80px;
 }
   
@@ -279,9 +280,10 @@
 }
 
 @media (max-width: 576px) {
+  
   .li {
-    width: 80px;
-    height: 50px;
+    width: 100%;
+    height: 60px;
   }
   .container{
    
@@ -309,10 +311,22 @@
     font-size: 0.8rem;
   }
   
-
+  /* .listContainer{
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content:space-around;
+    text-decoration: none;
+    z-index: 100;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+   
+  } */
   .listContainer{
     position: absolute;
-  
     bottom: 30px;
     height: 30px;
     
@@ -323,7 +337,7 @@
   
   .listContainer .links{
     display: flex;
-    gap: 0.5rem;
+    gap: 0.1rem;
     text-decoration: none;
     
     

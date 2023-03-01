@@ -83,7 +83,7 @@ export default function Home() {
                 
                 
                 <div style ={{ 
-                  
+                  display: 'flex',
                   position : 'relative',
                   padding : '0 2rem',
                  
@@ -92,7 +92,7 @@ export default function Home() {
                 <div className = {styles.listContainer}>
                 <ul className = {styles.links}>
                     <li className = {styles.li} style ={{backgroundColor:'#00489a' ,opacity: (position - 30)/50 + 0.95,  }} >
-                    <Link href = {{pathname: 'research', query: { id : 'clinical'}}} style = {{textAlign:'center', textDecoration: 'none'}}><contents className = {styles.contents} >Clinical Study Design</contents></Link>
+                    <Link href = {{pathname: 'research', query: { id : 'clinical'}}} style = {{textAlign:'center',}}><contents className = {styles.contents} >Clinical Study Design</contents></Link>
                     </li>
                     <li className = {styles.li} style = {{ backgroundColor:'#003979',opacity: (position - 30)/50+ 0.95}}>
                     <Link href = {{pathname: 'research', query: { id : 'uxui'}}} style = {{textAlign:'center', textDecoration: 'none'}}><contents className = {styles.contents}>UX/UI Design & Usability</contents> 
