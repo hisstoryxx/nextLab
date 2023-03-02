@@ -306,17 +306,24 @@
 
 
 @media (max-width: 576px) {
+    .aluImg{
+        width: 40%;
+        justify-self: center;
+        border-style:none;
+        display: flex;
+       
+    }
 
 
 .alu_header{
     
-    font-size: 0.8rem;
+    font-size: 1rem;
    
    
 }
 .alu_title{
  
-    font-size: 0.5rem;
+    font-size: 1rem;
     
     
 }
@@ -324,26 +331,26 @@
 .alu_course{
 
     
-    font-size:0.5rem;
+    font-size:1rem;
    
 }
 
 .alu_name{
    
-    font-size:0.5rem;
+    font-size:1rem;
     margin-bottom: 10px;
 
 
 }
 .alu_pos{
-    font-size:0.5rem;
+    font-size:0.8rem;
     
     
  
 }
 .alu_eng{
    
-    font-size: 0.5rem;
+    font-size: 1rem;
     margin-bottom: 10px;
 }
 
@@ -351,55 +358,55 @@
 
 .alu_edu{
     
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     margin-bottom: 10px;
    
 }
 
 .alu_edul1{
    
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     margin-bottom: 10px;
   
 }
 
 .alu_aff{
 
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     margin-bottom: 10px;
    
 }
 
 .alu_affl{
     
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     margin-bottom: 10px;
 
 }
 .alu_dis{
   
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     margin-bottom: 10px;
   
 }
 
 .alu_disl{
     
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     margin-bottom: 10px;
     
 }
 
 .alu_contact{
 
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     margin-bottom: 10px;
    
 }
 
 .alu_contactl{
  
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     margin-bottom: 10px;
    
 }

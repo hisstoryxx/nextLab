@@ -739,7 +739,7 @@
 
     .profImg{
         
-        width: 40%;
+        width: 50%;
         padding: 10px
     }
     
@@ -753,99 +753,99 @@
        
     }
     .prof_header{
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     .profList{
-        font-size: 0.6rem;
+        font-size: 1rem;
     }
     .prof_name{
     
-        font-size: 1rem;
+        font-size: 1.5rem;
  
     }
     .prof_pos{
-        font-size:0.5rem;
+        font-size:1rem;
         
         
     }
     .prof_eng{
    
-        font-size:0.5rem;
+        font-size:1rem;
         
     }
     .fos{
 
-        font-size: 0.5rem;
+        font-size: 1rem;
   
     }
     .fosCont{
        
-        font-size: 0.5rem;
+        font-size: 1rem;
        
         
     }
 
 
 .prof_email{
-    font-size: 0.5rem;
+    font-size: 1rem;
     
 }
 .prof_emailCont{
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     
 }
 
 .tel{
     
-    font-size: 0.5rem;
+    font-size: 1rem;
 
 }
 .telCont{
  
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     
 }
 
 .ri{
    
-    font-size: 0.5rem;
+    font-size: 1rem;
 
 }
 
 .ril{
     
-    font-size: 0.5rem;
+    font-size: 0.8rem;
    
 }
 
 
 .mc{
     
-    font-size: 0.5rem;
+    font-size: 0.8rem;
    
 }
 
 
 .mcl{
    
-    font-size: 0.5rem;
+    font-size: 0.8rem;
 
     
 }
 .textList{
-    font-size: 0.5rem;
+    font-size: 0.7rem;
    
 }
 
 .oc{
    
-    font-size: 0.5rem;
+    font-size: 0.8rem;
 
 }
 
 .ocl{
     
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   
 }
 
@@ -853,79 +853,79 @@
 
 .ec{
    
-    font-size: 0.5rem;
+    font-size: 0.8rem;
 
 }
 
 .ecl{
-    font-size: 0.5rem;
+    font-size: 0.7rem;
 
 }
 
 
 .sc{
     
-    font-size: 0.5rem;
+    font-size: 0.8rem;
 
 }
 
 .scl{ 
     
-    font-size: 0.5rem;
+    font-size: 0.7rem;
    
 }
 
 
 .rs{
  
-    font-size: 0.5rem;
+    font-size: 0.8rem;
 
 }
 
 .rsl{
     
-    font-size: 0.5rem;
+    font-size: 0.7rem;
 }
 .rslt{
     
-    font-size: 0.5rem;
+    font-size: 0.7rem;
    
 }
 
 
 .rec{
     
-    font-size: 0.5rem;
+    font-size: 0.8rem;
 
 }
 
 .recl{
     
-    font-size: 0.5rem;
+    font-size: 0.7rem;
    
 }
 
 .bc{
    
-    font-size: 0.5rem;
+    font-size: 0.8rem;
    
 }
 
 .bcl{
-    font-size: 0.5rem;
+    font-size: 0.7rem;
    
 }
 
 
 .ic{
    
-    font-size: 0.5rem;
+    font-size: 0.8rem;
    ;
 }
 
 .icl{
   
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     
 }
 }

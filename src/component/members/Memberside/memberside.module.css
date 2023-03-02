@@ -198,7 +198,7 @@
 }
 
 .title_member{
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .title_left{
@@ -237,7 +237,7 @@
 
 .memberListItem{
     display: flex;
-    font-size:22px;
+    font-size:1rem;
     /* width:208px; */
     width: 100%;
     margin-bottom: 33px;
@@ -258,7 +258,7 @@
 
 .memberNewListItem{
     display: flex;
-    font-size:22px;
+    font-size:1rem;
     /* width:208px; */
     width: 100%;
     margin-bottom: 33px;
@@ -278,7 +278,7 @@
 }
 
 .memberSmallItem{
-    font-size: 20px;
+    font-size: 1rem;
     margin-left: 18px;
     margin-bottom:26px;
     border-style: solid;
@@ -299,7 +299,7 @@
 
 .memberListItem{
     
-    font-size:0.8rem;
+    font-size:1rem;
     /* width:208px; */
     margin-bottom: 8px;
     height: auto;
@@ -320,7 +320,7 @@
 
 
 .memberSmallItem{
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     margin-bottom:6px;
     
 }

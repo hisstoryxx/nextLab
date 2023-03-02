@@ -273,63 +273,63 @@
 
     .stu_course{
 
-        font-size: 0.5rem;
+        font-size: 1rem;
         
     }
     .stu_name{
    
-        font-size:0.5rem;
+        font-size:1rem;
        
     }
     .stu_pos{
-        font-size:0.5rem;         
+        font-size:1rem;         
     }
     
     .stu_eng{
         
-        font-size: 0.5rem;
+        font-size: 1rem;
     }
     
   
     .stu_edu{
       
-        font-size: 0.5rem;
+        font-size: 0.8rem;
        
     }
     
     .stu_edul1{
        
-        font-size: 0.5rem;
+        font-size: 0.7rem;
         
     }
     
     .stu_edul2{
        
-        font-size: 0.5rem;
+        font-size: 0.7rem;
       
     }
     
     .stu_ri{
   
-        font-size: 0.5rem;
+        font-size: 0.8rem;
         
     }
     
     .stu_ril{
 
-        font-size: 0.5rem;
+        font-size: 0.7rem;
         
     }
     
     .stu_contact{
 
-        font-size: 0.5rem;
+        font-size: 0.8rem;
      
     }
     
     .stu_contactl{
    
-        font-size: 0.5rem;
+        font-size: 0.7rem;
        
     }
 
@@ -339,7 +339,7 @@
 }
 .stuImg{
 
-    width: 30%;
+    width: 40%;
     justify-self: center;
     display: flex;
     

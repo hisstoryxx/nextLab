@@ -256,7 +256,7 @@ justify-content: start;
 
 
     .staffs_name{
-        font-size: 0.5rem;
+        font-size: 1rem;
        
        
     
@@ -264,62 +264,62 @@ justify-content: start;
 
     .staffs_header{
 
-        font-size: 0.8rem;
+        font-size: 1rem;
         
     }
 
     .staffs_course{
         
-         font-size: 0.5rem;
+         font-size: 1rem;
       
         }
 
         .staffs_pos{
-            font-size:0.5rem;
+            font-size:1rem;
             
             
          
         }
         .staffs_eng{
            
-            font-size: 0.5rem;
+            font-size: 1rem;
         }
         
        
         
         .staffs_edu{
             
-            font-size: 0.5rem;
+            font-size: 0.8rem;
            
         }
         
         .staffs_edul1{
            
-            font-size: 0.5rem;
+            font-size: 0.7rem;
             
         }
         
         .staffs_ri{
            
-            font-size: 0.5rem;
+            font-size: 0.8rem;
       
         }
         
         .staffs_ril{
             
-            font-size: 0.5rem;
+            font-size: 0.7rem;
           
         }
         
         .staffs_contact{
          
-            font-size: 0.5rem;
+            font-size: 0.8rem;
            
         }
         
         .staffs_contactl{
         
-            font-size: 0.5rem;
+            font-size: 0.7rem;
             
         }
         

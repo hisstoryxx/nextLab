@@ -456,17 +456,38 @@
   }
 
 
+  .pub_title{
+    display:flex;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif; 
+    padding-left: 20px;
+    margin-bottom: 23.5px;
+    font-size: 1rem;
+
+}
+
+
 .international_journal{
   
-  
-  font-size: 0.8rem;
-  
+  display:flex;
+  justify-content: start;
+  font-size:1rem;
+  font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif; 
+  color: #002650;
+  opacity: 1;
+  font-weight: 1000;
+  margin-top: 40px;
+  padding-left: 0;
+  margin-bottom: 22.6px;
 }
 
  .journal_content{
-
-   font-size:0.5rem;
+  display:flex;
+  flex-direction: column;
+   font-size:0.7rem;
+   margin-bottom:60px;
+   padding-left:0;
    
+   font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
  }
  
 
@@ -474,54 +495,120 @@
 
 .domestic_journal{
 
- 
-  font-size:0.8rem;
-
+  display:flex;
+  justify-content: start;
+  font-size:1rem;
+  font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
+  color: #002650;
+  opacity: 1;
+  font-weight: 1000;
+  margin-top: 40px;
+  margin-left:0;
+  margin-bottom: 22.6px;
 }
 
 .international_conference{
 
- 
-  font-size:0.8rem;
-  
+  display:flex;
+  justify-content: start;
+  font-size:1rem;
+  font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
+  color: #002650;
+  opacity: 1;
+  font-weight: 1000;
+  margin-top: 40px;
+  margin-left:0;
+  margin-bottom: 22.6px;
 }
 
 .conference_content{
-  font-size:0.5rem;
+  font-size:0.7rem;
+  display:flex;
+  flex-direction: column;
+  margin-bottom:60px;
+  margin-left: 0;
+  margin-right: 47px;
 }
 
 .domestic_conference{
 
-  
-  font-size: 0.8rem;
-  
+  display:flex;
+  justify-content: start;
+  font-size:1rem;
+  font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif; 
+  color: #002650;
+  opacity: 1;
+  font-weight: 1000;
+  margin-top: 40px;
+  margin-left: 0;
+  margin-bottom: 22.6px;
 }
 
 .patent{
 
-
-  font-size: 0.8rem;
-
+  display:flex;
+  justify-content: start;
+  font-size:1rem;
+  font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
+  color: #002650;
+  opacity: 1;
+  font-weight: 1000;
+  margin-top: 40px;
+  margin-left: 0;
+  margin-bottom: 22.6px;
 }
 
 .patent_content{
-  
-  font-size:0.5rem;
-  
+  display:flex;
+  flex-direction: column;
+  font-size: 0.7rem;
+  margin-bottom:60px;
+  margin-left: 0;
+  margin-right: 47px;
 }
 
 .book{
 
-  
-  font-size: 0.8rem;
-  
+  display:flex;
+  justify-content: start;
+  font-size:1rem;
+  font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif; 
+  color: #002650;
+  opacity: 1;
+  font-weight: 1000;
+  margin-top: 40px;
+  margin-left: 0;
+  margin-bottom: 22.6px;
 }
 
 .book_content{
-  
-  font-size: 0.5rem;
-  
+  display:flex;
+  flex-direction: column;
+  font-size: 0.7rem;
+  margin-bottom:60px;
+  margin-left: 0;
+  margin-right: 47px;
 }
+
+.conl{
+  font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif; 
+  margin-bottom: 29px;
+}
+
+.title_border{
+    display:flex;
+}
+
+.title_left{
+    border-style: solid;
+    width:50%;
+    border-color: #002650;
+}
+.title_right{
+    width:50%;
+    background-color: #FFC341;
+}
+
 
   
 
