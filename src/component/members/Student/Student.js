@@ -77,7 +77,7 @@ export default function Student({select ,setSelect, selectStudent, setSelectStud
 <>
 <div className={styles.stu_header} >
    <div className={styles.stu_title}>
-   Students
+   Researchers & Students
   </div>
 </div>
 <StudentLayout 
@@ -237,7 +237,7 @@ con = {'5wldbs27@naver.com'}
         <>
           <div className={styles.stu_header} >
              <div className={styles.stu_title}>
-               Students {to} Post.D course
+               Researchers {to} Post.D course
             </div>
           </div>
           <StudentLayout 

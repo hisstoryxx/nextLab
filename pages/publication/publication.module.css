@@ -12,6 +12,7 @@
     display:flex;
     width: 100%;
     height:100%;
+    
 }
 
 .researchRight{
@@ -38,10 +39,11 @@
 .pub_left{
     flex:1;
     display:flex;
-    margin-top: 64px;
-    margin-bottom:200px;
+    margin-top: 86px;
+    margin-bottom:0px;
     width: 100%;
     height:100%;
+    
 }
 .slider{
   display:flex;
@@ -71,7 +73,8 @@
   width:100%;
   list-style: none;
   margin-top: 51px;
-  margin-left: 10px;
+  padding-left: 10px;
+ 
 
   
 }
@@ -90,7 +93,7 @@
 
 .pub_item{
   display:flex;
-  width:90%;
+  width:100%;
   font-size:1.2rem;
   margin-bottom: 33px;
   font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  
@@ -114,6 +117,8 @@
     flex-direction: column;
     height:100%;
     margin-top:64px;
+    margin-left : 20px;
+    
     
 }
 
@@ -135,7 +140,7 @@
 .pub_title{
     display:flex;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif; 
-    margin-left:50px;
+    padding-left:50px;
     margin-bottom: 23.5px;
     font-size: 1.5rem;
 
@@ -152,7 +157,7 @@
   opacity: 1;
   font-weight: 1000;
   margin-top: 40px;
-  margin-left:38px;
+  padding-left:38px;
   margin-bottom: 22.6px;
 }
 
@@ -162,7 +167,7 @@
 
    font-size:1rem;
    margin-bottom:60px;
-   margin-left:38px;
+   padding-left:38px;
    
    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
  }
@@ -310,7 +315,7 @@
   font-size:0.7rem;
   /* width:208px; */
   margin-bottom: 23px;
-  height: 15px;
+  height: auto;
 }
 
 
@@ -382,6 +387,14 @@
   font-size: 0.8rem;
   
 }
+.pubContent{
+ 
+  margin-top: 31px;
+  
+}
+
+
+ 
 
 
 
@@ -400,6 +413,13 @@
     font-size: 0.8rem;
 
 }
+.pubContent{
+ 
+  margin-top: 21px;
+  
+}
+
+
 
 
 
@@ -408,7 +428,7 @@
       font-size:0.5rem;
       /* width:208px; */
       margin-bottom: 8px;
-      height: 15px;
+      height: auto;
   }
 
 

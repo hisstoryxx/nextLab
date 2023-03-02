@@ -1,9 +1,10 @@
 .memberSide{
     
-    margin:10px;
+    margin: 19px;
     display: flex;
     flex-direction: column;
     width: 100%;
+    
 }
 
 
@@ -42,7 +43,7 @@
     display:flex;
     left:0;
     width: 100%;
-    margin-left: 10px;
+    padding-left: 10px;
 }
 
 .memberContent{
@@ -77,6 +78,27 @@
 
 }
 
+.memberNewListItem{
+    display: flex;
+    font-size:22px;
+    /* width:208px; */
+    width: 100%;
+    margin-bottom: 33px;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
+    font-weight: 700;
+    opacity: 1;
+    cursor:pointer;
+    border-style: solid;
+    height: 66.5px;
+    border-top-width: 0;
+    border-left-width:0;
+    border-right-width:0;
+    border-bottom-width:1px;
+    border-color: #FFC341;
+    
+
+}
+
 .memberSmallItem{
     font-size: 20px;
     margin-left: 18px;
@@ -94,10 +116,23 @@
 }
 @media (max-width: 992px){
 
+    .memberSide{
+    
+        margin: 22px;
+        
+        
+    }
+
     
 .title_member{
     font-size: 1rem;
 
+
+}
+.memberContent{
+    
+    
+    margin-top: 23px;
 
 }
 
@@ -123,7 +158,27 @@
 
 }
 
-.memberSmallItem{
+
+
+.memberNewListItem{
+    display: flex;
+    font-size:0.7rem;
+    width: 100%;
+    margin-bottom: 23px;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
+    font-weight: 700;
+    opacity: 1;
+    cursor:pointer;
+    border-style: solid;
+    height: auto;
+    border-top-width: 0;
+    border-left-width:0;
+    border-right-width:0;
+    border-bottom-width:1px;
+    border-color: #FFC341;
+    
+
+}.memberSmallItem{
     font-size: 0.7rem;
     margin-bottom:16px;
     
@@ -136,13 +191,35 @@
     font-size: 0.7rem;
 }
 
+.memberSide{
+    
+    margin: 24px;
+   
+    
+}
+
+
 .memberListItem{
     
     font-size:0.5rem;
     /* width:208px; */
     margin-bottom: 8px;
-    height: 15px;
+    height: auto;
 }
+
+.memberNewListItem{
+    
+    font-size:0.5rem;
+    /* width:208px; */
+    
+    height: auto;
+
+    
+    margin-bottom: 8px;
+   
+}
+
+
 
 .memberSmallItem{
     font-size: 0.5rem;

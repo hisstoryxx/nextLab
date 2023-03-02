@@ -69,7 +69,7 @@ export default function MemberSide({ select, setSelect, selectStudent, setSelect
         <div className={styles.memberside_container}>
         <ul className={styles.memberContent}>
           <li className={styles.memberListItem} onClick={clickPro} style={{color: select === 'Professor' ? 'black' : 'grey'}} >Professor</li>
-          <li className={styles.memberListItem} onClick={clickStu} style={{marginBottom: select === 'Student'  ? 20 : 33, color: select === 'Student' ? 'black' : 'grey'}} >Students</li>
+          <li className={styles.memberNewListItem} onClick={clickStu} style={{ color: select === 'Student' ? 'black' : 'grey'}} ><a>Researchers & Students</a></li>
             {select === 'Student' ? 
             <>
 
