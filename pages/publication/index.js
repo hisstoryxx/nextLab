@@ -46,6 +46,7 @@ export default function Publication() {
 
       <div style ={{position : "relative", padding : "0 2rem",}}>
       <div className={styles.publication}>
+      <div style ={{position : "relative", padding : "0 2rem",}}>
         <div className={styles.pub_left}>
             <div className={styles.slider}>
             
@@ -70,6 +71,7 @@ export default function Publication() {
               </div>
               </div>
             
+         </div>
          </div>
 
          <style jsx>{`

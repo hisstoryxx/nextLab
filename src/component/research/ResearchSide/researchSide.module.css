@@ -4,7 +4,7 @@
    display: flex;
    flex-direction: column;
    width: 100%;
-  }
+}
   .title_research{
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif; 
       display:flex;
@@ -115,14 +115,56 @@
     }
     
     @media (max-width: 576px) {
+        .researchSide{
+    
+            margin:20px;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+         }
         
+           
+           .titleResearch_border{
+               display:flex;
+           }
+           
+           .titleResearch_left{
+               border-style: solid;
+               width:50%;
+               border-color: #002650;
+           }
+           .titleResearch_right{
+               width:50%;
+               background-color: #FFC341;
+           }
+           
+           
+           .researchList{
+               display:flex;
+               left:0;
+               width: 100%;
+               padding-left: 0;
+           }
+           
+           .researchContent{
+               display:flex;
+               width: 100%;
+               flex-direction: column;
+               list-style: none;
+               margin-top: 10px;
+            
+         
+            
+           }
+           
+          
     .title_research{
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
     
     .researchListItem{
         
-        font-size:0.4rem;
+        font-size:0.8rem;
         /* width:208px; */
         margin-bottom: 13px;
         height: auto;

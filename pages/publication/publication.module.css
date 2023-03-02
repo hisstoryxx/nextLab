@@ -308,6 +308,7 @@
 
 }
 
+
   
   
 .pub_item{
@@ -403,29 +404,52 @@
   }
   
   @media (max-width: 576px) {
+
+
+    .publication{
+  
+      flex-direction: column;
+  }
+  .researchRight{
+  
+    margin-top: 0;
+}
+  
       
   .title_research{
-      font-size: 0.8rem;
+      font-size: 1rem;
   }
 
   .pub_title{
 
-    font-size: 0.8rem;
+    font-size: 1rem;
 
 }
+
+.pub_left{
+ 
+  margin-top: 20px;
+  margin-bottom:0px;
+  padding: 10px;
+  
+  
+}
+.researchRight{
+ 
+  margin-top: 0;
+}
+
 .pubContent{
  
-  margin-top: 21px;
+  margin-top: 10px;
+  padding-left: 0;
   
 }
 
 
-
-
-
   .pub_item{
       
-      font-size:0.5rem;
+      font-size:0.8rem;
       /* width:208px; */
       margin-bottom: 8px;
       height: auto;
