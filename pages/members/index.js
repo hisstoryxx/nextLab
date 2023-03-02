@@ -53,7 +53,7 @@ export default function Members() {
 
       <div className={styles.members}>
 
-        <div style ={{display:'flex'  ,flexDirection:'row'}}>
+        <div className ={styles.sidePosition}>
         
         <div className={styles.membersLeft}>
         <MemberSide select={select} setSelect={setSelect} selectStudent = {selectStudent }   setSelectStudent = {setSelectStudent}  />

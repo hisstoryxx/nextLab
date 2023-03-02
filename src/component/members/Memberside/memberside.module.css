@@ -186,22 +186,120 @@
 }
 
 @media (max-width: 576px) {
-    
-.title_member{
-    font-size: 0.7rem;
-}
 
 .memberSide{
     
-    margin: 24px;
-   
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
     
 }
+
+.title_member{
+    font-size: 1rem;
+}
+
+.title_left{
+    border-style: solid;
+    /* width:104px; */
+    width: 50%;
+    border-color:#002650;
+}
+.title_right{
+     
+    width:50%;
+    background-color: #FFC341;
+}
+.memberside_container{
+    display:flex;
+    width:100%;
+    
+}
+.memberList{
+    display:flex;
+    left:0;
+    width: 100%;
+    padding-left: 0;
+}
+
+.memberContent{
+    
+    display:flex;
+    width: 100%;
+    flex-direction: column;
+    
+    list-style: none;
+    margin-top: 10px;
+
+}
+
+.memberListItem{
+    display: flex;
+    font-size:22px;
+    /* width:208px; */
+    width: 100%;
+    margin-bottom: 33px;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
+    font-weight: 700;
+    opacity: 1;
+    cursor:pointer;
+    border-style: solid;
+    height: 46.5px;
+    border-top-width: 0;
+    border-left-width:0;
+    border-right-width:0;
+    border-bottom-width:1px;
+    border-color: #FFC341;
+    
+
+}
+
+.memberNewListItem{
+    display: flex;
+    font-size:22px;
+    /* width:208px; */
+    width: 100%;
+    margin-bottom: 33px;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
+    font-weight: 700;
+    opacity: 1;
+    cursor:pointer;
+    border-style: solid;
+    height: 66.5px;
+    border-top-width: 0;
+    border-left-width:0;
+    border-right-width:0;
+    border-bottom-width:1px;
+    border-color: #FFC341;
+    
+
+}
+
+.memberSmallItem{
+    font-size: 20px;
+    margin-left: 18px;
+    margin-bottom:26px;
+    border-style: solid;
+    border-top-width: 0;
+    border-left-width:0;
+    border-right-width:0;
+    border-bottom-width:1px;
+    border-color: #FFC341;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
+    opacity: 1;
+    font-weight: 600;
+    cursor:pointer;
+}
+
+
+
 
 
 .memberListItem{
     
-    font-size:0.5rem;
+    font-size:0.8rem;
     /* width:208px; */
     margin-bottom: 8px;
     height: auto;
@@ -209,7 +307,7 @@
 
 .memberNewListItem{
     
-    font-size:0.5rem;
+    font-size:0.8rem;
     /* width:208px; */
     
     height: auto;

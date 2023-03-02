@@ -23,7 +23,8 @@
    width:100%;
    display: flex;
    margin-left:50px;
-   margin-bottom: 23.5px;   
+   margin-bottom: 23.5px; 
+   font-size: 1rem;  
    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif; 
     }
 
