@@ -42,18 +42,17 @@ const ChoGallery = ({galleryImages}) => {
         
     }
     return (
-        <div style = {{display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column'}}>
+        <div style = {{display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', }}>
             {openModal &&
                 <div className = {styles.sliderWrap}>
-                  
-                    
                     <FontAwesomeIcon className={styles.btnPrev} icon={faCircleChevronLeft} onClick={prevSlide}/>
                     <FontAwesomeIcon className={styles.btnNext} icon={faCircleChevronRight} onClick={nextSlide} />
+                    
                     <div className = {styles.fullScreenImage}>
-                        <div style = {{display: 'flex', flexDirection :'column', alignItems:'center', margin: '0 0.2rem'}}>
+                        <div style = {{display: 'flex', flexDirection :'column', alignItems:'center', }}>
                         <span className= {styles.textFullTitle}>  {galleryImages[slideNumber].title} </span>
                         <FontAwesomeIcon className={styles.btnClose} icon={faCircleXmark} onClick={handleCloseModal} />
-                        <img src={galleryImages[slideNumber].img} alt=''/>
+                        <img src={galleryImages[slideNumber].img}  alt=''/>
                         </div>
                     </div>
                     

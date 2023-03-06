@@ -47,7 +47,7 @@ export default function Gallery() {
       title: '2021년도 대한전자공학회 하계종합학술대회 2'
     },
     {
-      img: "images/mddu2021_1.jpg",
+      img: "images/mddu2021_1.JPG",
       title: '2021년도 의료기기 설계 및 사용적합성 연구실 세미나'
     },
     {
@@ -70,7 +70,7 @@ export default function Gallery() {
 
   return (
     <div>
-      <div style = {{position : "relative", padding : "0 2rem", }}>
+      <div style = {{  }}>
       <Head>
         <title>
           Gallery | MDDU
