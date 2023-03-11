@@ -8,9 +8,10 @@ const Footer = () => {
         return false
     }
     return (
-        <div style= {{position : "relative", padding : "0 2rem"}}>
+        // position : "relative", padding : "0 2rem"
+        <div style= {{}}>
         <div style = {{width:'100%', flexDirection:'column', bottom:'0', backgroundColor: '#002650',
-         maxWidth : '1200px', margin: '0 auto',
+         margin: '0 0.1rem',
          
     
     }}>

@@ -11,6 +11,13 @@
 
 }
 
+.container{
+    display : flex;
+    flex-direction:column;
+    position : relative;
+    padding : 0 1rem; 
+}
+
 .navbar .logo a {
     
 }
@@ -32,6 +39,7 @@
     font-size : 1.5rem;
     cursor: pointer;
     display: none;
+    
 }
 
 .action_btn {
@@ -75,7 +83,7 @@
 .dropDownMenuOpen{
    
     position:absolute;
-    right: 2rem;
+    right: 1rem;
     top: 60px;
     width: 300px;
     background: rgba(255, 255, 255, 0.5);
@@ -138,7 +146,7 @@
 
 @media (max-width: 576px) {
     .dropDownMenuOpen{
-        left: 2rem;
+        left: 1rem;
         width: unset;
     }
 
@@ -148,9 +156,15 @@
     }
     .back {
         display: flex;
-        width: 200px;
+        width: 250px;
       
     }
+
+    .container{
+        
+        padding : 0 0.1rem; 
+    }
+    
 
     
 

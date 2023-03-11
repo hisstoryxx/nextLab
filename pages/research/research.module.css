@@ -1,3 +1,10 @@
+.container{
+    display: flex;
+    position: relative;
+    padding:0 2rem;
+    width: 100%;
+}
+
 .research{
     display:flex;   
     width: 100%;
@@ -26,7 +33,10 @@
 
 
 @media (max-width: 576px) {
-
+    .container{
+        padding-left: 18px;
+        padding-right: 18px;
+    }
     .research{
         display:flex;   
         width: 100%;

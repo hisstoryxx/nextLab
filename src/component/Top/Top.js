@@ -14,8 +14,8 @@ const Top = () => {
         
     }
     return (
-        <div style = {{position : "relative", padding : "0 2rem", }}>
-            <div style = {{display : "flex",flexDirection:'column', }}>
+        <div style = {{ }}>
+            <div className={styles.container}>
             {/* <div style = {{ flex : "100px 0 0"}}>
             <img src = "/images/LogoDesign_Eng.png" alt ="logo"/>
             로고 텍스트 이미지

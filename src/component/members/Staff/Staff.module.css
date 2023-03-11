@@ -14,7 +14,7 @@
 }
 .staffs_title{
     display:flex;
-    margin-left:50px;
+    padding-left:50px;
     margin-bottom: 23.5px;
     width:100%;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;

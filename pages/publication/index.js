@@ -44,9 +44,10 @@ export default function Publication() {
         </title>
       </Head>
 
-      <div style ={{position : "relative", padding : "0 2rem",}}>
+      <div style ={{}}>
+     
       <div className={styles.publication}>
-      <div style ={{position : "relative", padding : "0 2rem",}}>
+      <div className ={styles.container}>
         <div className={styles.pub_left}>
             <div className={styles.slider}>
             

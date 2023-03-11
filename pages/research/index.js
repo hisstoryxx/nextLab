@@ -79,7 +79,7 @@ export default function Research() {
         </title>
       </Head>
 
-      <div style ={{position : "relative", padding : "0 2rem",}}>
+      <div className ={styles.container}>
 
       <div className={styles.research}>
       <div className={styles.researchLeft}>

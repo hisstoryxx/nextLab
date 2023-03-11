@@ -1,4 +1,11 @@
 
+.container{
+    display: flex;
+    position: relative;
+    padding:0 2rem;
+    width: 100%;
+}
+
 .members{
     display:flex;
     margin-bottom: 200px;
@@ -12,6 +19,7 @@
     
     
 }
+
 
 .membersLeft{
     display:flex;
@@ -39,11 +47,22 @@
    
 }
 @media(max-width: 992px) {
+
+    .container{
+        position: relative;
+        padding: 0 1rem;
+    }
    
 }
 
 @media (max-width: 576px) {
 
+    .container{
+        position: relative;
+        padding-right: 18px;
+        padding-left: 18px;
+    }
+   
     .membersLeft{
     
     flex-direction: row;

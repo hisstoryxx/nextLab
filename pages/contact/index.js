@@ -29,7 +29,7 @@ export default function Contact() {
         </title>
       </Head>
 
-      <div style ={{position : "relative", padding : "0 2rem",}}>
+      <div className ={styles.container}>
 
       <div className={styles.contact}>
       

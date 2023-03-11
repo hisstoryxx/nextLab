@@ -40,14 +40,16 @@ export default function Members() {
 
 
   return (
-    <div>
+    <div style = {{}}>
       <Head>
         <title>
           Members | MDDU
         </title>
       </Head>
+    <div style ={{}}>
 
-      <div style ={{position : "relative", padding : "0 2rem",}}>
+    
+      <div className={styles.container}>
 
       
 
@@ -93,6 +95,7 @@ export default function Members() {
       </div>
     </div>
      
+    </div>
     </div>
   )
 }

@@ -1,6 +1,6 @@
 .map{
   display: flex;
-  flex:1;
+  flex-direction: row;
   width:100%;
 }
 
@@ -13,21 +13,14 @@
 
 @media(max-width: 992px) {
   .map_content{
-    
     width: 576px;
- 
   }
   
 }
 
 @media (max-width: 576px) {
-  
   .map_content{
-    
-    width: 350px;
- 
+    width: 100%;
+    height: 100%;
   }
-  
-
-  
 }
