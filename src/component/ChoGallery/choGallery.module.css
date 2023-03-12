@@ -41,10 +41,7 @@
 .galleryWrap .single .IContainer{
     width: 300px;
     height: 300px;
-    position: relative;
-    object-fit: contain;
-    object-position: center;
-   
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .galleryWrap .single .IContainer img {
@@ -57,6 +54,8 @@
     
     
 }
+
+
 
 .galleryWrap .single img:hover {
     transform: scale(1.02);

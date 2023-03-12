@@ -82,7 +82,8 @@ const ChoGallery = ({galleryImages}) => {
                                 onMouseMove = {() => handleTouch(slide.title)}
                                 >
                                 <div className={styles.IContainer}>
-                                <img src={slide.img}  alt ="" />
+                                <Image src={slide.img} width={100} height={100}  />
+                                {/* <img src={slide.img}  alt ="" /> */}
                                 </div>
                             </div>
                         )
