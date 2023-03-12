@@ -51,7 +51,7 @@ const ChoGallery = ({galleryImages}) => {
                     <FontAwesomeIcon className={styles.btnNext} icon={faCircleChevronRight} onClick={nextSlide} />
                     
                     <div className = {styles.fullScreenImage}>
-                        <div style = {{display: 'flex', flexDirection :'column', alignItems:'center', }}>
+                        <div style = {{display: 'flex', flexDirection :'column', alignItems:'center', width: '100%', height:'auto' }}>
                         <span className= {styles.textFullTitle}>  {galleryImages[slideNumber].title} </span>
                         <FontAwesomeIcon className={styles.btnClose} icon={faCircleXmark} onClick={handleCloseModal} />
                         <img src={galleryImages[slideNumber].img}  alt=''/>
