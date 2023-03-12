@@ -7,6 +7,8 @@ import {
     faCircleXmark
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Image from 'next/image';
+import testImage from '../../../public/images/vision.jpg'
 const ChoGallery = ({galleryImages}) => {
 
     const [slideNumber, setSlideNumber] = useState(0)
@@ -42,7 +44,7 @@ const ChoGallery = ({galleryImages}) => {
         
     }
     return (
-        <div style = {{display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', }}>
+        <div style = {{display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', position:'relative'}}>
             {openModal &&
                 <div className = {styles.sliderWrap}>
                     <FontAwesomeIcon className={styles.btnPrev} icon={faCircleChevronLeft} onClick={prevSlide}/>
@@ -69,6 +71,7 @@ const ChoGallery = ({galleryImages}) => {
             </div>
             <br/>
             <div className= {styles.galleryWrap}>
+                
                 {
                     galleryImages && galleryImages.map((slide, index) => {
                         return(
@@ -78,7 +81,9 @@ const ChoGallery = ({galleryImages}) => {
                                 onClick = { () => handleOpenModal(index)}
                                 onMouseMove = {() => handleTouch(slide.title)}
                                 >
-                                <img src={slide.img} alt = ''/>
+                                <div className={styles.IContainer}>
+                                <img src={slide.img}  alt ="" />
+                                </div>
                             </div>
                         )
                     })

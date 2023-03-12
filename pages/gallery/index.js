@@ -11,6 +11,54 @@ export default function Gallery() {
  
   const galleryImages = [
     {
+      img: 'images/23_graduation_1.JPG',
+      title: '2023년도 2월 졸업',
+    },
+    {
+      img: 'images/23_graduation_2.JPG',
+      title: '2023년도 2월 졸업',
+    },
+    {
+      img: 'images/23_graduation_3.JPG',
+      title: '2023년도 2월 졸업',
+    },
+    {
+      img: 'images/23_graduation_4.JPG',
+      title: '2023년도 2월 졸업',
+    },
+    {
+      img: 'images/23_graduation_5.JPG',
+      title: '2023년도 2월 졸업',
+    },
+    {
+      img: 'images/23_graduation_6.JPG',
+      title: '2023년도 2월 졸업',
+    },
+    {
+      img: 'images/23_gra_1.JPG',
+      title: '2023년도 2월 졸업 ',
+    },
+    {
+      img: 'images/23_gra_2.JPG',
+      title: '2023년도 2월 졸업 ',
+    },
+    {
+      img: 'images/23_gra_3.JPG',
+      title: '2023년도 2월 졸업 ',
+    },
+    {
+      img: 'images/23_gra_4.JPG',
+      title: '2023년도 2월 졸업 ',
+    },
+
+    {
+      img: 'images/23_gra_5.JPG',
+      title: '2023년도 2월 졸업 ',
+    },
+
+
+    // 23년도 졸업
+    {
       img: 'images/202207jeju1.jpg',
       title: '2022년도 대한전자공학회 하계종합학술 대회 1',
     },
