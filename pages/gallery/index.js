@@ -10,6 +10,7 @@ export default function Gallery() {
 
  
   const galleryImages = [
+    // 23년도 2월 졸업
     {
       img: 'images/23_graduation_1.JPG',
       title: '2023년도 2월 졸업',
@@ -57,7 +58,16 @@ export default function Gallery() {
     },
 
 
-    // 23년도 졸업
+    // 22년도 8월 졸업
+    {
+      img: 'images/my_gra_1.jpeg',
+      title: '2022년도 8월 졸업 ',
+    },
+    {
+      img: 'images/my_gra_2.jpeg',
+      title: '2022년도 8월 졸업 ',
+    },
+
     {
       img: 'images/202207jeju1.jpg',
       title: '2022년도 대한전자공학회 하계종합학술 대회 1',
