@@ -5,13 +5,20 @@ import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
 import React,{useEffect,useState} from 'react'
 
-
+import useInterval from '@/src/component/useInterval'
 
 
 export default function Home() {
 
   const [position, setPosition] = useState(0);
-  
+  let [count, setCount] = useState(0);
+  let [delay, setDelay] = useState(1000);
+
+  useInterval(() => {
+    setCount(count + 1);
+    console.log(count)
+  }, delay);
+
   const onScroll = () => {
     setPosition(window.scrollY);
     console.log(window.scrollY)
@@ -96,18 +103,18 @@ export default function Home() {
                   }}>
                 <div className = {styles.listContainer}>
                 <ul className = {styles.links}>
-                    <li className = {styles.li} style ={{backgroundColor:'#00489a' ,opacity: (position - 200)/50 + 0.5,  }} >
+                    <li className = {styles.li} style ={{backgroundColor:'#00489a' ,opacity: (position - 200)/50 + 0.5, transform: count % 2 == 0 ? "scale(1.05)" : "scale(0.95)"}} >
                     <Link href = {{pathname: 'research', query: { id : 'clinical'}}} style = {{textAlign:'center',textDecoration: 'none'}}><contents className = {styles.contents} >Clinical Study Design</contents></Link>
                     </li>
-                    <li className = {styles.li} style = {{ backgroundColor:'#003979',opacity: (position - 200)/50+ 0.5}}>
+                    <li className = {styles.li} style = {{ backgroundColor:'#003979',opacity: (position - 200)/50+ 0.5, transform: count % 2 == 0 ? "scale(1.05)" : "scale(0.95)"}}>
                     <Link href = {{pathname: 'research', query: { id : 'uxui'}}} style = {{textAlign:'center', textDecoration: 'none'}}><contents className = {styles.contents}>UX/UI Design & Usability</contents> 
                       </Link>
                       </li>
-                    <li  className = {styles.li} style ={{ backgroundColor: '#005d8a',opacity: (position - 200)/50+ 0.95}}>
+                    <li  className = {styles.li} style ={{ backgroundColor: '#005d8a',opacity: (position - 200)/50+ 0.95, transform: count % 2 == 0 ? "scale(1.05)" : "scale(0.95)"}}>
                     <Link href = {{pathname: 'research', query: { id : 'industry'}}} style = {{textAlign:'center', textDecoration: 'none'}}><contents className = {styles.contents}>Medical Device Industry Policy</contents> 
                       </Link>
                     </li>
-                    <li  className = {styles.li} style = {{backgroundColor: '#0086c4',opacity: (position - 200)/50+ 0.95}}>
+                    <li  className = {styles.li} style = {{backgroundColor: '#0086c4',opacity: (position - 200)/50+ 0.95, transform: count % 2 == 0 ? "scale(1.05)" : "scale(0.95)"}}>
                     <Link href = {{pathname: 'research', query: { id : 'bio'}}} style = {{textAlign:'center', textDecoration: 'none'}}> <contents className = {styles.contents}>Bio-Signal Processing & AI</contents> 
                       </Link>
                       </li>

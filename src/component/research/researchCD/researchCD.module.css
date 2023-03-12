@@ -105,20 +105,23 @@
 @media (max-width: 576px) {
     
     .cd_header{  
-        font-size: 0.8rem;
+        font-size: 1.2rem;
      }
 
      .cdList{
-        font-size: 0.8rem;
+        font-size: 1rem;
    
     }
 
      .cd_title{
-       
+        font-size: 1rem;
         margin-left:20px;
         
         
     }
+
+  
+    
     
 }
 
