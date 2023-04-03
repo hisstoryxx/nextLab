@@ -88,7 +88,7 @@ EName = {null}
 edu1 = {'Master in Medical Device Engineering & Management (2020)'} 
 edu2 = {'Bachelor in Biomedical Engineering, Konkuk University (2017)'} 
 edu3 = {'Doctor in Medical Device Engineering & Management (2023)'}
-int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation, \nMedical Device Industry Policy, Medical Regulatory Affairs'}
+int = {'Clinical Effectiveness Evaluation,\nUsability/Human Factors Engineering,\nMedical Device Industry Policy, Medical Regulatory Affairs'}
 con = {'yxxrm_k@naver.com / yxxrmk@yonsei.ac.kr'}
 />
 
@@ -248,7 +248,7 @@ con = {'5wldbs27@naver.com'}
             edu1 = {'Master in Medical Device Engineering & Management (2020)'} 
             edu2 = {'Bachelor in Biomedical Engineering, Konkuk University (2017)'} 
             edu3 = {'Doctor in Medical Device Engineering & Management (2023)'}
-            int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation, \nMedical Device Industry Policy, Medical Regulatory Affairs'}
+            int = {'Clinical Effectiveness Evaluation,\nUsability/Human Factors Engineering,\nMedical Device Industry Policy, Medical Regulatory Affairs'}
             con = {'yxxrm_k@naver.com / yxxrmk@yonsei.ac.kr'}
             />
 
