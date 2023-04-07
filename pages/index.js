@@ -42,6 +42,7 @@ export default function Home() {
         </title>
         <link rel="shortcut icon" href="/favicon.ico"/>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="google-site-verification" content="P-d4C_H2QecrsaOjW_iwNbcNPeDz0j5LFn0eU3jMfas" />
       </Head>
 
 
