@@ -1,0 +1,117 @@
+.researchBS{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    
+}
+
+.bs_header{  
+   display: flex;
+   width: 100%;
+   font-size: 26px;
+   font-family:'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
+   font-weight: 700;
+   flex-direction: column;
+   
+}
+.bs_title{
+    display: flex;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif; 
+    margin-left:50px;
+    margin-bottom: 23.5px;
+    width: 100%;
+    white-space: normal;
+    
+}
+.bs_scrollMenu{
+    width: 100%;
+    border-style: solid;
+    border-top-width:1px;
+    border-left-width:0px;
+    border-right-width:0px;
+    border-bottom-width:1px;
+    border-color: #707070;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+.bsList{
+    font-size: 22px;
+    list-style: none;
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
+    font-weight: 1000;
+    cursor:pointer;
+}
+
+
+.bsp_all{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+    align-self: center;
+}
+
+.bspl{
+ 
+    margin-top: 22.5px;
+    border-style: solid;
+    border-top-width:0px;
+    border-left-width:0px;
+    border-right-width:0px;
+    border-bottom-width:1px;
+    border-color: #707070;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+@media(max-width: 992px) {
+    
+
+    .bs_header{  
+       font-size: 1.2rem;
+    }
+    .bsList{
+        font-size: 1rem;
+   
+    }
+
+    .bspl{
+     
+        margin-top: 22.5px;
+        border-style: solid;
+        border-top-width:0px;
+        border-left-width:0px;
+        border-right-width:0px;
+        border-bottom-width:1px;
+        border-color: #707070;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 576px) {
+    
+    .bs_header{  
+        font-size: 1.2rem;
+     }
+
+     .bsList{
+        font-size: 1rem;
+   
+    }
+
+     .bs_title{
+       
+        margin-left:20px;
+        
+        
+    }
+    
+}
+

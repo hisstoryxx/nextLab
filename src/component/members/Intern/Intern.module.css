@@ -1,0 +1,125 @@
+.intern{
+    display:flex;
+    flex-direction: column;
+   
+   
+    font-weight:500;        
+}
+
+.intern_header{
+  
+    
+    display: flex;
+    font-size: 1.5rem;
+    flex-direction: column;
+  
+    
+    
+}
+
+
+
+.intern_info{
+   
+    display: flex;
+    border-top: solid;
+    border-top-width: 1px;
+    
+   
+    flex-direction: column;
+}
+
+
+.iilt{
+   
+  
+    color:#002650;
+    font-weight: 700;
+    display:flex;
+    justify-content: start;
+    font-size: 1.2rem;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
+  
+    opacity: 1;
+   
+    margin-top: 63.5px;
+    margin-left:38px;
+   
+
+}
+.iild{
+    margin-left:10px;
+    margin-top: 3px;
+    font-size: 1rem;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
+    margin-bottom: 20px;
+   
+}
+.iil{
+    
+    font-size: 0.8rem;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
+    margin-bottom: 40px;
+    margin-left:38px;
+}
+
+
+@media (max-width: 992px){
+    .intern_header{
+
+        font-size: 1rem;
+
+        
+    }
+    
+    
+    
+    .iilt{
+  
+        font-size: 1rem;
+
+
+    }
+    .iild{
+ 
+        font-size: 0.6rem;
+       
+    }
+    .iil{
+        
+        font-size: 0.6rem;
+       
+    }
+    
+    
+}
+
+
+@media (max-width: 576px){
+    .intern_header{
+
+        font-size: 1rem;
+
+        
+    }
+    
+    
+    
+    .iilt{
+  
+        font-size: 1rem;
+
+
+    }
+    .iild{
+ 
+        font-size: 1rem;
+       
+    }
+    .iil{
+        
+        font-size: 0.7rem;
+       
+    }
+    
+}

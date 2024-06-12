@@ -1,0 +1,30 @@
+.student{
+    display:flex;
+    flex-direction: column;
+     white-space: pre-wrap;
+     width:100%;
+}
+
+.stu_header{
+
+    display: flex;
+    font-size: 26px;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
+   
+}
+.stu_title{
+    font-weight:700;
+    display:flex;
+    margin-bottom: 23.5px;
+    width:100%;
+    margin-left:50px;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
+}
+
+@media (max-width: 992px){
+
+    
+    .stu_title{
+        font-size: 1rem;
+    }
+    }
