@@ -6,6 +6,7 @@ import Top from '@/src/component/Top/Top'
 import '../styles/style.css'
 
 
+
 export default function App({ Component, pageProps }) {
   return (
     // <div style = {{ width : 1000, margin : "0 auto"}}>
