@@ -32,8 +32,8 @@ const Top = () => {
                 </div>
                 <ul className = {styles.links}>
                     <li><a href = "EVA" >EVA</a></li>
-                    <li><a href = "research">USHER</a></li>
-                    <li><a href = "gallery">BOR/BO</a></li>
+                    <li><a href = "USHER">USHER</a></li>
+                    <li><a href = "BOR_BO">BOR/BO</a></li>
                     <li><a href = "publication">Publication</a></li>
                     
                 </ul>
@@ -50,10 +50,10 @@ const Top = () => {
             </div>
 
             <div className ={toggle ? styles.dropDownMenuOpen : styles.dropDownMenu}>
-                    <li><a href = "members" >Members</a></li>
-                    <li><a href = "research">Research</a></li>
+                    <li><a href = "EVA" >EVA</a></li>
+                    <li><a href = "USHER">USHER</a></li>
+                    <li><a href = "BOR_BO">BOR/BO</a></li>
                     <li><a href = "publication">Publication</a></li>
-                    <li><a href = "gallery">Gallery</a></li>
                     <li><a href = "contact" className={styles.action_btn} style ={{color: "#fff"}}>Contact</a></li>
             </div>
 

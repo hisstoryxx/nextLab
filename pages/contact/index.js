@@ -17,7 +17,7 @@ import Head from 'next/head';
 export default function Contact() {
 
   const toHomepage = () => {
-    window.location.href='http://mdi.yonsei.ac.kr/'
+    window.location.href='https://www.snuh.org/intro.do'
 
     return false
 }
@@ -25,7 +25,7 @@ export default function Contact() {
     <div>
       <Head>
         <title>
-          Contact | MDDU
+          LeeKunHee | WebDB | Contact
         </title>
       </Head>
 
@@ -48,7 +48,7 @@ export default function Contact() {
             <div className={styles.address}>
                
                <span className={styles.address_title}><FontAwesomeIcon className={styles.address_icon} icon={faLocationDot} color = "#002650"  />Address</span>
-               <span className={styles.address_content}>B1, 20, Eonju-ro 63-gil, Gangnam-gu, Seoul, Republic of Korea</span>
+               <span className={styles.address_content}>71, Daehak-ro, Jongno-gu, Seoul, Republic of Korea</span>
             </div>
 
             <div className={styles.email}>
@@ -57,7 +57,7 @@ export default function Contact() {
                <FontAwesomeIcon className={styles.email_icon} icon={faContactBook} color = "#002650"  />
                  {/* <MdContactMail className="email_icon"/> */}
                  Email</span>
-               <span className={styles.email_content}>mddu.lab.yonsei@gmail.com</span>
+               <span className={styles.email_content}>geneticentlab@gmail.com</span>
             </div>
 
             <div className={styles.application}>
@@ -65,9 +65,9 @@ export default function Contact() {
                <FontAwesomeIcon className={styles.application_icon} icon={faMagnifyingGlass} color = "#002650"  />
                  {/* <MdPersonSearch className="application_icon"/> */}
                  Application</span>
-               <span className={styles.application_content}>Interns - Opening per semester </span>
-               <span className={styles.application_content}>Graduate students - Contact us </span>
-               <span className={styles.application_content}>Requirements - CV & Academic Record (recommended) </span>
+               <span className={styles.application_content}> A </span>
+               <span className={styles.application_content}> B </span>
+               <span className={styles.application_content}> C </span>
             </div>
 
             <div className={styles.department}>
@@ -76,8 +76,8 @@ export default function Contact() {
                <FontAwesomeIcon className={styles.department_icon} icon={faGraduationCap} color = "#002650"  />
                  {/* <FaGraduationCap className="department_icon"/> */}
                  Department</span>
-               <span className={styles.department_content}>Dept. of Medical Device Engineering & Management</span>
-               <span className={styles.department_content_mdi}  onClick={toHomepage} > http://mdi.yonsei.ac.kr/</span>
+               <span className={styles.department_content}> @@@ </span>
+               <span className={styles.department_content_mdi}  onClick={toHomepage} > https://www.snuh.org/intro.do </span>
             </div>
         </div>
        </div>

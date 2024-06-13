@@ -4,11 +4,9 @@ import Head from 'next/head'
 import { Inter } from '@next/font/google'
 import styles from './members.module.css'
 
-import MemberSide from '@/src/component/members/Memberside/Memberside'
-import Professor from '@/src/component/members/Professor/Professor'
-import Alumni from '@/src/component/members/Alumni/Alumni'
-import Student from '@/src/component/members/Student/Student'
-import Staffs from '@/src/component/members/Staff/Staff'
+import MemberSide from '@/src/component/eva/Memberside/Memberside'
+import Professor from '@/src/component/eva/Professor/Professor'
+import Staffs from '@/src/component/eva/Staff/Staff'
 //import StudentLayout from '@/src/component/members/studentLayout/StudentLayout'
 
 const inter = Inter({ subsets: ['latin'] })
